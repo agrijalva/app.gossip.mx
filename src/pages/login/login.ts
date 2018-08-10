@@ -1,25 +1,40 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {
+	IonicPage,
+	NavController,
+	NavParams,
+	ModalController
+} from 'ionic-angular';
 
-/**
- * Generated class for the LoginPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { GeneroPage } from '../genero/genero';
+
+//Modales
+import { ModalAboutPage } from '../modal-about/modal-about';
 
 @IonicPage()
 @Component({
-  selector: 'page-login',
-  templateUrl: 'login.html',
+	selector: 'page-login',
+	templateUrl: 'login.html',
 })
 export class LoginPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
+	constructor(
+		public navCtrl: NavController,
+		public navParams: NavParams,
+		public modalCtrl: ModalController) {
+	}
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad LoginPage');
-  }
+	ionViewDidLoad() {
+		console.log('ionViewDidLoad LoginPage');
+	};
+
+	login() {
+		this.navCtrl.setRoot(GeneroPage);
+	};
+
+	openModal() {
+		let modalAbout = this.modalCtrl.create(ModalAboutPage);
+		modalAbout.present();
+	};
 
 }
