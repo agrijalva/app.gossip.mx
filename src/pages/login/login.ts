@@ -28,7 +28,7 @@ export class LoginPage {
 		console.log('ionViewDidLoad LoginPage');
 	};
 
-	login() {
+	goGenero() {
 		this.navCtrl.setRoot(GeneroPage);
 	};
 

@@ -4,25 +4,7 @@
 			<img src="../../assets/imgs/general/logo1.png">
 		</div>
 		<br><br>
-		<!-- <ion-list>
-		  	<ion-item>
-		    	<ion-label floating> <ion-icon ios="ios-unlock-outline" md="ios-unlock-outline"></ion-icon> &nbsp;&nbsp;&nbsp;Soy</ion-label>
-		    	<ion-select [(ngModel)]="genero">
-				    <ion-option value="1">Mujer</ion-option>
-				    <ion-option value="2">Hombre</ion-option>
-				</ion-select>
-		  	</ion-item>
-
-		  	<ion-item>
-		    	<ion-label floating> <ion-icon ios="ios-contact-outline" md="ios-contact-outline"></ion-icon> &nbsp;&nbsp;&nbsp;Edad</ion-label>
-		    	<ion-select [(ngModel)]="edad">
-				    <ion-option *ngFor="let anio of anios" 
-				    value="{{anio}}">{{ anio }}</ion-option>
-				</ion-select>
-		  	</ion-item>
-		</ion-list>
-		<br> -->
-	    <button ion-button (click)='login();' full color="secondary">
+	    <button ion-button (click)='goGenero();' full color="secondary">
 	    	Comenzar
 	    </button>
 
