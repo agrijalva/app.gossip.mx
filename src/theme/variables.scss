@@ -86,3 +86,13 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+@font-face {
+  font-family: 'snippet';
+  src: url('../assets/fonts/snippet/Snippet.ttf') format('truetype');
+};
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+};
