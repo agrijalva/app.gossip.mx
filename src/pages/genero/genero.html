@@ -1,18 +1,39 @@
-<!--
-  Generated template for the GeneroPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>genero</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
 <ion-content padding>
+	<div class="divRegistro">
+		<ion-grid>
+			<ion-row>
+				<ion-col>
+					<img src="../../assets/imgs/genero/logo_md.png">
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col>
+					<label class="labelRegistro"> REGISTRO </label>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	</div>
+	<div class="divBtns">
+		<ion-grid>
+			<ion-row class="rowBtns">
+				<ion-col col-6>
+					<button [ngStyle]="{'background-image': 'url(' + imageM + ')'}" ion-button class="btnsGenero" (click)="switchMujer()">
 
+					</button>
+				</ion-col>
+				<ion-col col-6>
+					<button [ngStyle]="{'background-image': 'url(' + imageH + ')'}" ion-button class="btnsGenero" (click)="swicthHombre()">
+
+					</button>
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col col-12>
+					<button ion-button full color="secondary">
+						Edad
+					</button>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	</div>
 </ion-content>
