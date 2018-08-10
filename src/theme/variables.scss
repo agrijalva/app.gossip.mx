@@ -17,11 +17,16 @@ $app-direction: ltr;
 
 
 @font-face {
+  font-family: 'Roboto';
+  src: url(../assets/fonts/roboto/Roboto-Thin.ttf) format("truetype");
+  font-weight: 200
+};
+
+@font-face {
   font-family: 'Snippet';
   src: url(../assets/fonts/snippet/Snippet.ttf) format("truetype");
   font-weight: 200
-}
-
+};
 
 // Shared Variables
 // --------------------------------------------------

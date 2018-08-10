@@ -1,7 +1,8 @@
 page-genero {
-    .login-box {
-        padding: 20px 20px 0px 20px;
-    };
+
+    img{
+        max-width: 45%;
+    }
 
     ion-row {
         align-items: center;
@@ -9,22 +10,22 @@ page-genero {
     };
 
     .labelRegistro{
-        font-family: 'Snippet';
-        font-size: 30px;
+        font-family: 'Roboto';
+        font-size: 20px;
     };
 
     .divRegistro{
-        margin-top: 10%,
+        margin-top: 25%,
     };
 
     .divBtns{
         height: 100%;
-        margin-top: 10%;
+        margin-top: 60px;
     };
 
     .btnsGenero{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 0px;
@@ -47,14 +48,21 @@ page-genero {
     ion-grid{
         align-items: center;
     };
+
+    .gridBtn{
+        padding-top: 100px;
+    };
 };
 
-.button-md-secondary{
-    background-color: #16a183;
+.button-md-light{
+    background-color: #c1c1c1;
+    color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Snippet';
-    width: 300px;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    width: 200px;
+    border-radius: 5px;
 };
 
 .button-md {
