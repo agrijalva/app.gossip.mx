@@ -18,8 +18,9 @@ $app-direction: ltr;
 
 @font-face {
   font-family: 'snippet';
-  src: url('../assets/fonts/snippet/Snippet.ttf') format('truetype');
-};
+  src: url(../assets/fonts/snippet/Snippet.ttf) format("ttf");
+  font-weight: 200
+  }
 
 
 // Shared Variables
