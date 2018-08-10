@@ -5,6 +5,7 @@ import { MyApp } from './app.component';
 
 import { LoginPage } from '../pages/login/login';
 import { GeneroPage } from '../pages/genero/genero';
+import { EdadPage } from '../pages/edad/edad';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
@@ -25,6 +26,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     LoginPage,
     GeneroPage,
+    EdadPage,
     ModalAboutPage
   ],
   imports: [
@@ -40,6 +42,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     LoginPage,
     GeneroPage,
+    EdadPage,
     ModalAboutPage
   ],
   providers: [
