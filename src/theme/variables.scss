@@ -15,6 +15,13 @@ $app-direction: ltr;
 @import "ionic.globals";
 
 
+
+@font-face {
+  font-family: 'snippet';
+  src: url('../assets/fonts/snippet/Snippet.ttf') format('truetype');
+};
+
+
 // Shared Variables
 // --------------------------------------------------
 // To customize the look and feel of this app, you can override
@@ -86,13 +93,3 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
-
-@font-face {
-  font-family: 'snippet';
-  src: url('../assets/fonts/snippet/Snippet.ttf') format('truetype');
-};
-
-@font-face {
-  font-family: 'roboto';
-  src: url('../assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
-};
