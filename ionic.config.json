@@ -1,0 +1,8 @@
+{
+  "name": "app.gossip.mx",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
