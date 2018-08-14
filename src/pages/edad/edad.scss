@@ -1,3 +1,22 @@
 page-edad {
+    .header-banner{
+		
+		height:200px;
+		min-height:200px;
+		background:red;
+	}
+
+	.slide-zoom {
+        background:red;
+		width:100px;
+		height: 100%;
+		// overflow:hidden;
+	}
+
+       ion-slides {
+           background:red;
+        //    width: 100px;
+          height: 200px;
+       }
 
 }

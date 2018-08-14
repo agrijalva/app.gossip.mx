@@ -14,5 +14,12 @@
 
 
 <ion-content padding>
-
+  <div>
+    <h1>EDAD</h1>
+  </div>
+  <ion-slides>
+    <ion-slide *ngFor="let edad of edades" (ionSlideDidChange)="slideChanged()">
+      <h1>{{edad.edad}}</h1>
+    </ion-slide>
+  </ion-slides>
 </ion-content>
